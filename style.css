@@ -1,0 +1,39 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    font-family: fantasy;
+    color: royalblue;
+}
+p{
+    font-family: cursive;
+}
+.container input,textarea{
+    margin: 10px;
+    border: 3px solid red;
+    border-radius: 90px;
+    font-size: 20px;
+    padding: 10px;
+    width:69%;
+}
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.6;
+}
+#btn{
+    background-color: purple;
+    font-size: large;
+    cursor: pointer;
+    color: wheat;
+    width: 100px;
+}
